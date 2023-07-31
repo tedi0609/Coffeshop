@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alamat</title>
+    <link rel="stylesheet" href="alamat.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./Responsive/resAlamat.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"> <img src="./Assets/Logo White.png" alt="" /></a>
+        </div>
+        <div class="menu-nav">
+          <a href="index.html">Home</a>
+          <a href="product.html">Products</a>
+          <a class="aktiv" href="Alamat.html">Store</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+    <div class="container-grid">
+      <div class="text-satu">
+        <h2>Find Us!</h2>
+        <br />
+        <p>Come visit us at our store or deliver to your house!</p>
+        <br />
+        <li class="text-dua">
+          <h1>Block 71</h1>
+          <p>Ariobimo Sentral, South Jakarta, RT.9/RW.4, East Kuningan, Setiabudi, Jakarta, 12950</p>
+        </li>
+        <br />
+        <li class="text-tiga">
+          <h1>Woodland Park Residence</h1>
+          <br />
+          <p>Jl. Raya Kalibata No.22, RW.7, Rawajati, Kec. Pancoran, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12750</p>
+        </li>
+        <br />
+        <li class="text-empat">
+          <h1>IKEA Alam Sutera</h1>
+          <br />
+          <p>Alam Sutera, Jl. Jalur Sutera Boulevard No. 45, Kunciran, Kec. Pinang, Kota Tangerang, Banten 15320</p>
+        </li>
+      </div>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.3569956987435!2d106.14867391542595!3d-6.0825082613723165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418b1d5d17e3e9%3A0xadb4cd954e4b1bbf!2sHarmony%20Residence%202%20Kasemen!5e0!3m2!1sen!2sid!4v1679433706280!5m2!1sen!2sid"
+        ></iframe>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>
+      <div class="grid-container-footer">
+        <div class="img-foot">
+          <img class="img-1" src="./Assets/Logo White.png" alt="" />
+          <img class="img-2" src="./Assets/MAIL ICON.png" alt="" />
+          <img class="img-3" src="./Assets/PHONE ICON.png" alt="" />
+        </div>
+        <div class="product">
+          <h1 class="accordion">Products<span class="fa fa-arrow-circle-left"></span></h1>
+          <div class="panel">
+            <a href="#">Coffeem Based</a>
+            <a href="#">Non-Coffee</a>
+            <a href="#">Tea Based</a>
+          </div>
+        </div>
+        <div class="store">
+          <h1 class="accordion"><span class="fa fa-arrow-circle-left"></span>Store</h1>
+          <div class="panel">
+            <a href="#">Location</a>
+          </div>
+        </div>
+        <div class="contact">
+          <h1 class="accordion">Contact<span class="fa fa-arrow-circle-left"></span></h1>
+          <div class="panel">
+            <a href="#">Customer Service</a>
+          </div>
+        </div>
+        <ul class="tag">
+          <li>© Designed by Progate Indonesia</li>
+          <p>Vidy Darmawan</p>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

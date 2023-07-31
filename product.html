@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="product.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Poppins:wght@300;400;500;600;700;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./Responsive/resProduct.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"> <img src="./Assets/Logo White.png" alt="" /></a>
+        </div>
+        <div class="menu-nav">
+          <a href="index.html">Home</a>
+          <a class="aktiv" href="product.html">Products</a>
+          <a href="Alamat.html">Store</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-grid">
+      <div class="tambahan">
+        <h1>Product</h1>
+        <ul class="menux">
+          <li>Coffee Based</li>
+          <li>Non Coffee</li>
+          <li>Tea Based</li>
+        </ul>
+      </div>
+      <div class="text-content">
+        <h1>Our Coffee Based Products</h1>
+        <br />
+        <br />
+        <p>Locally sourced best ingredients = best coffee.</p>
+      </div>
+      <div class="content-gambar1">
+        <a href="Buttercotch.html">
+          <p>Aren Latte</p>
+          <p>Rp.18.000,-</p>
+          <img src="./Assets/page1/aren latte.png" alt="" />
+        </a>
+      </div>
+      <div class="content-gambar1">
+        <a href="Buttercotch.html">
+          <p>Cafe Latte</p>
+          <p>Rp.24.000,-</p>
+          <img src="./Assets/page1/cafe latte.png" alt="" />
+        </a>
+      </div>
+      <div class="content-gambar1">
+        <a href="Buttercotch.html">
+          <p>Caramel Latte</p>
+          <p>Rp.30.000,-</p>
+          <img src="./Assets/page1/caramel latte.png" alt="" />
+        </a>
+      </div>
+      <div class="content-gambar1">
+        <a href="Buttercotch.html">
+          <p>Americano</p>
+          <p>Rp.18.000,-</p>
+          <img src="./Assets/page1/americano.png" alt="" />
+        </a>
+      </div>
+      <div class="content-gambar1">
+        <a href="Buttercotch.html">
+          <p>Cappucino</p>
+          <p>Rp.24.000,-</p>
+          <img src="./Assets/page1/cappucino.png" alt="" />
+        </a>
+      </div>
+      <a href="Buttercotch.html">
+        <div class="content-gambar1">
+          <p>Buttercotch</p>
+          <p>Rp.24.000,-</p>
+          <img src="./Assets/page1/butterscotch.png" alt="" />
+        </div>
+      </a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <footer>
+      <div class="grid-container-footer">
+        <div class="img-foot">
+          <img class="img-1" src="./Assets/Logo White.png" alt="" />
+          <img class="img-2" src="./Assets/MAIL ICON.png" alt="" />
+          <img class="img-3" src="./Assets/PHONE ICON.png" alt="" />
+        </div>
+        <div class="product">
+          <h1 class="accordion">Products <span class="fa fa-arrow-circle-left"></span></h1>
+          <div class="panel">
+            <a href="#">Coffeem Based</a>
+            <a href="#">Non-Coffee</a>
+            <a href="#">Tea Based</a>
+          </div>
+        </div>
+        <div class="store">
+          <h1 class="accordion"><span class="fa fa-arrow-circle-left"></span>Store</h1>
+          <div class="panel">
+            <a href="#">Location</a>
+          </div>
+        </div>
+        <div class="contact">
+          <h1 class="accordion">Contact<span class="fa fa-arrow-circle-left"></span></h1>
+          <div class="panel">
+            <a href="#">Customer Service</a>
+          </div>
+        </div>
+        <ul class="tag">
+          <li>© Designed by Progate Indonesia</li>
+          <p>Vidy Darmawan</p>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

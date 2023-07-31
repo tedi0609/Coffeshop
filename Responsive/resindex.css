@@ -1,0 +1,236 @@
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header-content {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+  }
+  .navbar {
+    display: block;
+    margin: auto;
+  }
+  .menu-nav {
+    display: inline-flex;
+  }
+  .menu-nav a {
+    width: 80%;
+    font-size: 20px;
+    margin: 20px auto 0 27px;
+  }
+
+  .logo img {
+    display: flex;
+    width: 200px;
+    height: 50px;
+  }
+
+  /* content */
+  .content {
+    padding-top: 20rem;
+  }
+  .content h1 {
+    font-size: 40px;
+    margin-top: -50px;
+  }
+  .content p {
+    font-size: 20px;
+  }
+
+  .grid-container {
+    display: auto;
+    grid-template-columns: auto;
+    width: 80%;
+    justify-content: center;
+  }
+  .content-satu img {
+    width: 300px;
+    height: 390px;
+  }
+  .text-satu {
+    margin-top: 40px;
+    width: 50%;
+    padding-left: 10rem;
+  }
+  .text-satu h1 {
+    font-size: 35px;
+  }
+  .text-satu p {
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 350px;
+  }
+  /* content-dua */
+  .content-dua {
+    display: contents;
+  }
+  .content-dua img {
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    bottom: -810px;
+  }
+  .text-dua h1 {
+    font-size: 35px;
+    margin-left: 160px;
+  }
+  .text-dua p {
+    font-size: 15px;
+    width: 350px;
+    margin-left: 160px;
+  }
+  .text-dua a {
+    font-size: 15px;
+    width: 150px;
+    height: 60px;
+    padding-right: 40px;
+    font-weight: bold;
+    margin-left: 160px;
+  }
+  /* content 3 */
+
+  .content-tiga img {
+    width: 340px;
+    height: 300px;
+    margin-top: -30px;
+  }
+  .text-tiga h1 {
+    font-size: 35px;
+    position: absolute;
+    top: -70px;
+  }
+  .text-tiga p {
+    font-size: 15px;
+    width: 350px;
+    margin-top: -15px;
+  }
+  .text-tiga a {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .grid2-container {
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+  .grid2-container img {
+    width: 100px;
+  }
+  .top h1 {
+    font-size: 35px;
+  }
+  .down h1 {
+    font-size: 35px;
+  }
+  .down p {
+    font-size: 15px;
+  }
+  .down a {
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+  }
+  /* footer */
+  .grid-container-footer {
+    width: 100%;
+    display: inline-block;
+    height: auto;
+  }
+  .img-foot {
+    width: 80%;
+    display: flex;
+    margin: -50px auto;
+    justify-content: space-between;
+  }
+  .img-1 {
+    width: 250px;
+    height: 40px;
+    margin-right: 80px;
+  }
+  .img-2 {
+    width: 40px;
+    height: 25px;
+  }
+  .img-3 {
+    width: 40px;
+    height: 25px;
+  }
+  /* footer main */
+  /* product */
+  .product {
+    width: 80%;
+    justify-content: center;
+    margin: 40px auto;
+    color: #ec9a29;
+    border-bottom: 1px solid;
+    padding: 0px;
+  }
+  .product h1 {
+    font-size: 20px;
+    color: #ec9a29;
+  }
+
+  .fa {
+    float: right;
+    font-size: 20px;
+    font-weight: 10;
+    cursor: pointer;
+    transition: all 1s;
+    display: block;
+  }
+
+  .fa:active {
+    transform: rotate(-450deg);
+    color: antiquewhite;
+  }
+  .product a {
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+  /* Store */
+  .store {
+    width: 80%;
+    justify-content: center;
+    margin: 40px auto;
+    color: #ec9a29;
+    border-bottom: 1px solid;
+  }
+  .store h1 {
+    font-size: 20px;
+    color: #ec9a29;
+  }
+  .store a {
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+  /* contact */
+  .contact {
+    width: 80%;
+    justify-content: center;
+    margin: 40px auto;
+    color: #ec9a29;
+    border-bottom: 1px solid;
+  }
+  .contact h1 {
+    font-size: 20px;
+    color: #ec9a29;
+  }
+  .contact a {
+    display: flex;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .tag {
+    width: 100%;
+    font-weight: 100;
+  }
+  .tag h1 {
+    font-weight: 100;
+  }
+}
